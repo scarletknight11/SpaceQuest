@@ -70,28 +70,28 @@ public class GameOverPanel : MonoBehaviour {
     {
         print("Game Over Main Menu");
         saveStats();
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Level1");
     }
 
     public void PlayAgain2()
     {
         print("Game Over Main Menu");
         saveStats();
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene("Level2");
     }
 
     public void PlayAgain3()
     {
         print("Game Over Main Menu");
         saveStats();
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene("Level3");
     }
 
     public void Restart()
     {
         print("Game Over Main Menu");
         saveStats();
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Level1");
     }
 
     /*
