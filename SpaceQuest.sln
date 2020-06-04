@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceQuest", "Assembly-CSha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceQuest", "Assembly-CSharp-Editor.csproj", "{B2DBD343-CCB7-C70C-5943-028B9077A788}"
 EndProject
+Project("{2C33063D-FC79-0725-71D5-8C6AF91490FE}") = "SpaceQuest", "Assembly-UnityScript-firstpass.unityproj", "{D3EB4EDF-CC49-77C0-77CF-631BC92FD95E}"
+EndProject
+Project("{2C33063D-FC79-0725-71D5-8C6AF91490FE}") = "SpaceQuest", "Assembly-UnityScript-Editor.unityproj", "{68D6B518-C5F3-DA9B-5545-1336C6CE78C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,14 @@ Global
 		{B2DBD343-CCB7-C70C-5943-028B9077A788}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2DBD343-CCB7-C70C-5943-028B9077A788}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2DBD343-CCB7-C70C-5943-028B9077A788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3EB4EDF-CC49-77C0-77CF-631BC92FD95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3EB4EDF-CC49-77C0-77CF-631BC92FD95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3EB4EDF-CC49-77C0-77CF-631BC92FD95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EB4EDF-CC49-77C0-77CF-631BC92FD95E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D6B518-C5F3-DA9B-5545-1336C6CE78C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D6B518-C5F3-DA9B-5545-1336C6CE78C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D6B518-C5F3-DA9B-5545-1336C6CE78C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D6B518-C5F3-DA9B-5545-1336C6CE78C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
