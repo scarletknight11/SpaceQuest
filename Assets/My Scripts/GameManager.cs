@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
-using enableGame;
 
 public class GameManager : MonoBehaviour {
 
@@ -15,7 +14,6 @@ public class GameManager : MonoBehaviour {
 
     public int score = 0;
     public bool canBeatLevel = false;
-    //public egInt beatLevelScore = 1;
     public int beatLevelScore;
 
     public GameObject mainCanvas;
@@ -34,10 +32,8 @@ public class GameManager : MonoBehaviour {
 
     private Health playerHealth;
  
-
     void Start() {
-        //VariableHandler.Instance.Register(RBParameterStrings.GAME_SCORE, beatLevelScore);
-
+ 
         if (gm == null)
             gm = gameObject.GetComponent<GameManager>();
 
