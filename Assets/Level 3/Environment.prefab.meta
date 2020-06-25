@@ -1,9 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Level 3/Environment.prefab.meta
 guid: 8b2a4cc3b1a91bf4e8af46b8a5ffc93c
 timeCreated: 1593029597
 licenseType: Free
 NativeFormatImporter:
   mainObjectFileID: -1
+=======
+guid: 63c990ce968518742932dfec6f3a5026
+timeCreated: 1592977417
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+>>>>>>> ffd1b05cbdb9f88ba5063174b3c93a63776a33c9:Assets/Level 3/gem.prefab.meta
   userData: 
   assetBundleName: 
   assetBundleVariant: 
