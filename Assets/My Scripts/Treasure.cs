@@ -21,19 +21,6 @@ public class Treasure : MonoBehaviour {
 				Instantiate (explosionPrefab, transform.position, Quaternion.identity);
 			}
 
-            if (GameManager2.gm2 != null) {
-                GameManager2.gm2.Collect2(value);
-            }
-
-            if (GameManager3.gm3 != null) {
-                GameManager3.gm3.Collect3(value);
-            }
-
-            if (GameManager4.gm4 != null)
-            {
-                GameManager4.gm4.Collect4(value);
-            }
-
             // destroy after collection
             Destroy(gameObject);
 		}
