@@ -2463,7 +2463,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 915624488}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -349828312, guid: 5aa0d56bf4599ef4ca855485dfe1541f, type: 3}
+  m_Script: {fileID: -349828312, guid: e21825a838a1e0a49b57aff1df05df6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SpineBase: {fileID: 571245920}
@@ -3629,7 +3629,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1710025547}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -399080877, guid: 5aa0d56bf4599ef4ca855485dfe1541f, type: 3}
+  m_Script: {fileID: -399080877, guid: e21825a838a1e0a49b57aff1df05df6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   reader: {fileID: 1710025549}
@@ -3649,7 +3649,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1710025547}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2025595467, guid: 5aa0d56bf4599ef4ca855485dfe1541f, type: 3}
+  m_Script: {fileID: -2025595467, guid: e21825a838a1e0a49b57aff1df05df6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   jsonFile: {fileID: 4900000, guid: 436302075e3df440cac51c61d2557bae, type: 3}

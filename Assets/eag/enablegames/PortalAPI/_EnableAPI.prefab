@@ -78,7 +78,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000011073703524}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 156575360, guid: 5aa0d56bf4599ef4ca855485dfe1541f, type: 3}
+  m_Script: {fileID: 156575360, guid: e21825a838a1e0a49b57aff1df05df6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   url: ws://127.0.0.1:2505/socket.io/?EIO=4&transport=websocket
@@ -95,7 +95,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000013856936828}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1223027738, guid: 5aa0d56bf4599ef4ca855485dfe1541f, type: 3}
+  m_Script: {fileID: 1223027738, guid: e21825a838a1e0a49b57aff1df05df6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   socket: {fileID: 114000010853331738}

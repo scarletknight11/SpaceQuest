@@ -14,7 +14,7 @@ public class RBPauseManager : MonoBehaviour {
 
     public GameObject gameOverPanel;
     public GameObject pausePanel;
-    public Game gameManager;
+    public egGame gameManager;
     public static bool isPaused;    //is game already paused?
 
     /// <summary>

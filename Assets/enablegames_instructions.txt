@@ -1,19 +1,56 @@
 enAblegames Developer Libraries (EGDL)
 
-EGDL performs the following tasks 
+Welcome to the enablegames libraries.  The libraries make it possible to easily use a player's body as input to a game using our patent-pending System for Unified Input (SUKI).
+The libraries also allow you to record motion and game info for remote monitoring, and use remote parameter setting for remote game adjustment. 
+
+--Demos
+There are two demo main scenes in the asset package at Assets/eag/Demos/Scenes: eag_MoveCubeGame and eag_KickCubeGame
+eag_MoveCubeGame: Move a cube controlled by a selected body part to collect falling coins. Uses SUKI.
+eag_KickCubeGame: Collect falling coins by kicking them with avatar's feet.  Does not use SUKI.
+There is also a vr version of the KickCube game which moves the camera to the avatar's eye position.
+  
+--Running the Demos (QuickStart Guide)
+1) Make sure you have an account on enablegames.com and have installed the enablegames launcher and any device drivers as detailed in 
+   the Startup Guide at www.enablegames.com/support
+2) Connect any trackers (i.e. Kinect) and Run the enablegames launcher (enablegames.exe) and log in.
+3) Run unity, and create a new game project
+4) Import the EGDL asset package (enablegames.unitypackage)
+5) Load and run one of the two demos in Assets/eag/Demos/Scenes.  Either eag_Login or eag_Login_vr.  
+eag_Login: PC version 
+If you want to build the demos, these scenes need to be added in the build settings
+ a) eag_Login:calls eag_MainMenu, eag_MoveCubeGame, eag_KickCubeGame  
+ b) eag_Login_vr:calls eag_MainMenu_vr, eag_KickCubeGame_vr
+ 
+--Building and Running Demos on Android
+ - The android build will connect via wireless network to your computer running the enaAblegames launcher.  The PC will pass the body tracking data to the phone as input to the game.
+ - Firewalls on the PC or port blocking on your network can prevent the launcher from connecting to your game.  Please disable firewalls for testing.
+ 1) Follow all Unity instructions for setting up your Android device and connect your device.
+ 2) Load the vr scenes and add them to the project
+ 3) Select Android in the File->Build Settings
+ 4) In BuildSettings->Player Settings->Other, set:
+   a) Package Name to a unique name
+   b) Minimum API Level to Android 4.4: "Kit Kat", Level 19
+   c) If you want a stereo VR build, click the "Enable Virtual Reality" checkbox and add Cardboard and Daydream Virtual Reality SDKs
+ 5) Click Build and Run button to build the .apk file, deploy it to your device, and run the app.
+ 6) On the login screen, enter the IP address of the computer running the enablegames launcher.  If the avatar does not show up, your game was unable to connect to the launcher.
+
+
+--EGDL performs the following tasks 
 1) Handles user login (eag_Login scene)
 2) Manages getting parameter overrides from server, setting parameters and saving/loading parameter profiles (eag_MainMenu scene, DefaultParameters.json)
 In the eag_MoveCube scene:
 3) Binds game variables to parameters (VariableHandler class, and egFloat, egInt, etc.)
 4) Manages Avatar movement via network connection to enAblegames App (NetworkedSkeleton class)
-5) Translates body motions to inputs (SUKI classes and SUKI files in StreamingAssets)
+5) Translates body motions to inputs (SUKI classes and SUKI files in StreamingAssets).  
+   SUKI is the System for Unified Kinematic Input, which uses different .suki files to tell which body parts to monitor as input for the game. 
 6) Calculates joint angle data (SkeletonData)
 7) Records game and body data to server (_Tracker object and Tracker scripts) 
-
-Adding EGDL (QuickStart Guide)
+In the eag_KickCube scene, all but #5 are done.
+  
+--Adding EGDL (QuickStart Guide)
 The basic steps to add EGDL to your game are:
 1) Load your game project
-2) Import EGDL asset package (enablegames.unitypackage)
+2) Import the EGDL asset package (enablegames.unitypackage)
 3) Add logging in and setting parameters support: 
 3.1) Add eag/Demos/MoveCube/Scenes/eag_Login and eag_MainMenu scenes to your project build settings (these should be 0 and 1 levels)
 3.2) Set eag_Login._EnableAPI object's Game and Version parameters to your game's name and version number.
@@ -30,13 +67,13 @@ These are the objects you need for input and tracking.
 5.6) Add any parameters and variables you want to set in the parameter settings as described in the section below.
 6) It is recommended that you set your game for the "Good" quality level in Edit->Project Settings->Quality so CPU usage will be balanced between your game and the launcher.
 7) Edit the Build Settings->Player Settings to set your Company Name, and Product Name, Icon, and Splash Image Logo. (see examples in EGDL demo project). 
-8) To have the game parameters accessible via the portal, you will need to have your game and its DefaultParameters.json file added to the server and server code. This is done by sending it to the enAbleGames development team.
+8) After 1-7, you can run and build your game.  To have the game parameters accessible via the portal, you will need to have your game and its DefaultParameters.json file added to the server and server code. This is done by sending it to the enAbleGames development team.
 8.1) The DefaultParameters.json file will be renamed your_game_name.json and be put at enableweb/server/games
 8.2) A 700x400 game image your_game_name.jpg will be put in enableweb/public/img/games
 8.3) Your game name added to enableweb/public/js/routes.js (and enableweb/server/test/api.settings.game.js for api testing)
 
 
-Using Parameters
+--Using Parameters
 Parameters are values that can be changed by the player or remotely via the portal.  These get bound to variables in the game to control difficulty, type of motion-input mapping, or even volume.
 The EGDL stores all parameters in JSON files.  The default file is called DefaultParameters.json and it is located in the StreamingAssets folder.  This file is used to automatically generate the UI elements for each parameter in the MainMenu scene when the Settings button is pressed, including Sliders, Buttons, and Toggles. Parameters are also able to be overrided by a Clinic user via the enAblegames portal.  These overrides are automatically handled by the EGDL.
  All parameters can be Saved and Loaded to individually-named files for setting up a game for a particular user or type of therapy. This is also automatically handled in the MainMenu scene.
@@ -75,7 +112,7 @@ To add a new parameter and bind it to a variable:
 
 The VariableHandler's Register function is passed the name of the parameter to bind to, and the egVar variable which is getting bound.  If the variable is changed by the game, the parameter will be automatically updated, and if the parameter is changed, the variable will be updated. 
 
-ADDING BODY INPUT (SUKI)
+--ADDING BODY INPUT (SUKI)
 enAblegames translation of body inputs into game inputs is called SUKI (System for Unified Kinematic Input).  SUKI loads external files which hold definitions on which body part to monitor and how to translate the body data to game input.  These external SUKI profiles are stored as JSON files called Schemas, and are located in the SteamingAssets/SUKI directory.  Actually, SUKI is given the name of a file with a .suki extension which holds the name of one or more JSON schema files.  An example is LRSideBending.suki which contains the names of two schema files.
 	constraint.straightback.suki.json	
 	torsosideleaning.suki.json
@@ -111,7 +148,7 @@ Typically, a user loads one of several SUKI files via the MainMenu parameters.  
                 "$id": "5"
             },
                     
-Using SUKI in your game
+--Using SUKI in your game
 If you want to use existing SUKI files, there are several steps:
 1) Add SukiSchemaList object (empty object with SukiSchemaList.cs script) to handle SUKI schemas
 2) Use MainMenu Settings menu to load a SUKI file, or explicitly load one in code by calling SukiSchemaList.AddFile(string filename);
@@ -133,9 +170,6 @@ If you want a new stick-figure image and animation showing the body motion, use 
 SUKI Names
 
 Joint Names: used in "SchemaMetric": "SingleJointAngle" (1 joint)
-
-
-
 
 namespace Suki
 {
@@ -249,7 +283,7 @@ namespace Suki
 }
 
 
-RECORDING GAME SESSION TO PORTAL
+--RECORDING GAME SESSION TO PORTAL
 The enAblegames' portal records all game session data.  This includes the parameter settings for a game, all player motion data, any in-game data the game wants to specifically record, and a summary "footer" containing the game's score, duration, performance info, and even a player message.  The EGDL Tracker classes handle recording of all data to the portal's server.  In order to record information for your game, follow the following steps. 
 1) Add Tracker prefab which records game and body data to server (_Tracker object and Tracker scripts) 
 2) Make sure the TrackAvatar component is on your TrackingAvatar.
