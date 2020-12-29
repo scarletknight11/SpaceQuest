@@ -31,9 +31,9 @@ public class egGame : MonoBehaviour {
 
 	public string networkAddress = "localhost";
 	void Awake () {
-		PlayerPrefs.SetString(egParameterStrings.LAUNCHER_ADDRESS,networkAddress);
-		egAwake ();
-		Physics.gravity = new Vector3 (0.0f, Gravity, 0.0f);
+		PlayerPrefs.SetString(egParameterStrings.LAUNCHER_ADDRESS, networkAddress);
+		egAwake();
+		//Physics.gravity = new Vector3 (0.0f, Gravity, 0.0f);
 
 	}
 	
@@ -106,11 +106,13 @@ public class egGame : MonoBehaviour {
 		print ("MainMenu");
         UnPauseGame();  //must start up unity time again so DOTweens work
         egEndSession();
+		SceneManager.LoadScene(MenuScene);
 
 		#if UNITY_ANDROID
 		SceneManager.LoadScene(MenuScene);
 		#else
 		SceneManager.LoadScene(MenuScene);
+		Debug.Log("Hit");
 		#endif
 	}
 
@@ -149,8 +151,8 @@ public class egGame : MonoBehaviour {
 
 	//egFloat,etc. are custom variables that can be attached to parameters in the settings menu and portal
 	//They are attached to the parameters in the egAwake function below.
-	egFloat Speed=1.0f;		//speed of player
-	egFloat Gravity=-1.0f;	//falling cylinder's gravity (-1.0 is unity default)
+	public egFloat Speed=1.0f;		//speed of player
+	//egFloat Gravity=-1.0f;	//falling cylinder's gravity (-1.0 is unity default)
 	egInt GameLength=300; 	//in seconds
 
 	// Use this for initialization
@@ -176,10 +178,10 @@ public class egGame : MonoBehaviour {
 		//without first running MainMenu scene)
 		//Also, parameters must be added to DefaultParameters.json file (located in StreamingAssets folder).
 		VariableHandler.Instance.Register (ParameterStrings.STARTING_SPEED, Speed);
-		VariableHandler.Instance.Register (ParameterStrings.GRAVITY, Gravity);
+		//VariableHandler.Instance.Register (ParameterStrings.GRAVITY, Gravity);
 		VariableHandler.Instance.Register (egParameterStrings.GAME_LENGTH, GameLength);
 		print ("Speed=" + Speed);
-		print ("Gravity=" + Gravity);
+		//print ("Gravity=" + Gravity);
 		print ("GameLength=" + GameLength);
 	}
 
