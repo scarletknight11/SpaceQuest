@@ -124,7 +124,6 @@
     <Compile Include="Assets\eag\3rd Party\AnimatedGifPlayer\Examples\Mesh Renderer Example\MeshRendererExample.cs" />
     <Compile Include="Assets\eag\3rd Party\consolation-master\Console.cs" />
     <Compile Include="Assets\eag\Demos\MoveCube\Scripts\Collectible.cs" />
-    <Compile Include="Assets\eag\Demos\MoveCube\Scripts\GameOverPanel.cs" />
     <Compile Include="Assets\eag\Demos\MoveCube\Scripts\ParameterStrings.cs" />
     <Compile Include="Assets\eag\Demos\MoveCube\Scripts\TrackerFooter.cs" />
     <Compile Include="Assets\eag\Demos\MoveCube\Scripts\egGame.cs" />
@@ -135,7 +134,6 @@
     <Compile Include="Assets\eag\enablegames\Tracking\Demigiant\DOTween\Examples\Sequences.cs" />
     <Compile Include="Assets\eag\enablegames\Utilities\OrbitCamera.cs" />
     <Compile Include="Assets\eag\enablegames\Utilities\SkeletonDraw.cs" />
-    <Compile Include="Assets\eag\enablegames\Utilities\egGameInfo.cs" />
     <None Include="Assets\StreamingAssets\SUKI\arms\balance\scenarios.txt" />
     <None Include="Assets\enablegames_instructions.txt" />
     <None Include="Assets\PyroParticles\Prefab\Materials\AdditiveTintable.shader" />
@@ -357,11 +355,11 @@
     <Reference Include="DOTween50">
       <HintPath>C:/Users/pauld/Desktop/spacequest/Assets/eag/enablegames/Tracking/Demigiant/DOTween/DOTween50.dll</HintPath>
     </Reference>
-    <Reference Include="uneted">
-      <HintPath>C:/Users/pauld/Desktop/spacequest/Assets/MP/uneted.dll</HintPath>
-    </Reference>
     <Reference Include="unet">
       <HintPath>C:/Users/pauld/Desktop/spacequest/Assets/MP/unet.dll</HintPath>
+    </Reference>
+    <Reference Include="uneted">
+      <HintPath>C:/Users/pauld/Desktop/spacequest/Assets/MP/uneted.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
