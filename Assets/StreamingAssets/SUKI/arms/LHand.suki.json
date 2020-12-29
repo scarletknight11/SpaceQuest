@@ -5,8 +5,6 @@
     "SchemaDevice": "Kinect",
     "SchemaMetric": "SingleNodePosition",
     "BodyNodes": [
-		 "LeftShoulder",
-        "LeftLowerArm",
         "LeftHand"
     ],
     "CalculationInfo": null,

@@ -1,6 +1,6 @@
 {
     "_id": "5905235c04738f5c88da715",
-    "SchemaName": "placement",
+    "SchemaName": "joystick",
     "SchemaResolution": "Range",
     "SchemaDevice": "Kinect",
     "SchemaMetric": "SingleJointAngle",

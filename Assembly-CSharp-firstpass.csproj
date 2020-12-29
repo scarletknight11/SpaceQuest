@@ -282,11 +282,11 @@
     <Reference Include="DOTween50">
       <HintPath>C:/Users/pauld/Desktop/spacequest/Assets/eag/enablegames/Tracking/Demigiant/DOTween/DOTween50.dll</HintPath>
     </Reference>
-    <Reference Include="uneted">
-      <HintPath>C:/Users/pauld/Desktop/spacequest/Assets/MP/uneted.dll</HintPath>
-    </Reference>
     <Reference Include="unet">
-      <HintPath>C:/Users/pauld/Desktop/spacequest/Assets/MP/unet.dll</HintPath>
+      <HintPath>C:/Users/pauld/Desktop/spacequest/Assets/eag/enablegames/Plugins/Release/unet.dll</HintPath>
+    </Reference>
+    <Reference Include="uneted">
+      <HintPath>C:/Users/pauld/Desktop/spacequest/Assets/eag/enablegames/Plugins/Release/uneted.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

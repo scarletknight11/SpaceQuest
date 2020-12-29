@@ -270,6 +270,9 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="DllSwitcher">
+      <HintPath>C:/Users/pauld/Desktop/spacequest/Assets/DllSwitcher/Editor/DllSwitcher.dll</HintPath>
+    </Reference>
     <Reference Include="TinyJSON">
       <HintPath>C:/Users/pauld/Desktop/spacequest/Assets/eag/3rd Party/Plugins/TinyJSON.dll</HintPath>
     </Reference>
@@ -291,14 +294,11 @@
     <Reference Include="DOTweenEditor">
       <HintPath>C:/Users/pauld/Desktop/spacequest/Assets/eag/enablegames/Tracking/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
     </Reference>
-    <Reference Include="DllSwitcher">
-      <HintPath>C:/Users/pauld/Desktop/spacequest/Assets/DllSwitcher/Editor/DllSwitcher.dll</HintPath>
+    <Reference Include="unet">
+      <HintPath>C:/Users/pauld/Desktop/spacequest/Assets/eag/enablegames/Plugins/Release/unet.dll</HintPath>
     </Reference>
     <Reference Include="uneted">
-      <HintPath>C:/Users/pauld/Desktop/spacequest/Assets/MP/uneted.dll</HintPath>
-    </Reference>
-    <Reference Include="unet">
-      <HintPath>C:/Users/pauld/Desktop/spacequest/Assets/MP/unet.dll</HintPath>
+      <HintPath>C:/Users/pauld/Desktop/spacequest/Assets/eag/enablegames/Plugins/Release/uneted.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:/Users/pauld/Desktop/spacequest/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
