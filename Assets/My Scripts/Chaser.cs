@@ -10,7 +10,7 @@ public class Chaser : MonoBehaviour {
 	//public float speed = 20.0f;
 	public float minDist = 1f;
 	public Transform target;
-    egFloat EnemySpeed = 0.4f;
+    egFloat EnemySpeed = 1.4f;
 
     public GameObject explosionPrefab;
 
