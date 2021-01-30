@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Level Scenes/Level3.unity
+- path: Assets/Main Menu Scenes/eag_MainMenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
