@@ -865,7 +865,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 209020147}
+      objectReference: {fileID: 450088424}
     - target: {fileID: 114040244526777840, guid: a76e2e9b680c54b49a032ced26f25561,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -907,11 +907,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 209020147}
     - target: {fileID: 114167505308826676, guid: a76e2e9b680c54b49a032ced26f25561,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: EndGame
       objectReference: {fileID: 0}
     - target: {fileID: 114222567840757142, guid: a76e2e9b680c54b49a032ced26f25561,
         type: 3}
@@ -1046,11 +1046,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 209020147}
+      objectReference: {fileID: 450088424}
     - target: {fileID: 114546547648881270, guid: a76e2e9b680c54b49a032ced26f25561,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EndGame
+      value: Quit
       objectReference: {fileID: 0}
     - target: {fileID: 114609443536757380, guid: a76e2e9b680c54b49a032ced26f25561,
         type: 3}
@@ -1518,6 +1518,30 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 25
+--- !u!114 &209020153 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114798272972581562, guid: a76e2e9b680c54b49a032ced26f25561,
+    type: 3}
+  m_PrefabInstance: {fileID: 209020145}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &209020154 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114812280693194430, guid: a76e2e9b680c54b49a032ced26f25561,
+    type: 3}
+  m_PrefabInstance: {fileID: 209020145}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &228374356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1877,6 +1901,25 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 209020145}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &450088424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450088423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf035dd3e900ad34194fa7fbece915f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 1251939993}
+  scorer: {fileID: 1251939993}
+  points: {fileID: 1251939993}
+  score: 0
+  GameTextStrings: []
+  scoreText: {fileID: 209020154}
+  notes: {fileID: 209020153}
 --- !u!1 &461041787
 GameObject:
   m_ObjectHideFlags: 0
@@ -3376,6 +3419,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: gameover can
+      objectReference: {fileID: 0}
+    - target: {fileID: 2680588905773316707, guid: 4456823573f8dbd43996ec4b8d6c1b6d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2680588905871012983, guid: 4456823573f8dbd43996ec4b8d6c1b6d,
         type: 3}

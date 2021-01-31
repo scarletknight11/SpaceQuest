@@ -117,7 +117,7 @@ MonoBehaviour:
   m_MinSize: {x: 908, y: 421}
   m_MaxSize: {x: 22003, y: 10021}
   vertical: 0
-  controlID: 346
+  controlID: 1763
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 421}
   m_MaxSize: {x: 4001, y: 8021}
   vertical: 1
-  controlID: 302
+  controlID: 1820
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -402,9 +402,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.5840014, y: -0.8895444, z: -0.016547784}
+    m_Target: {x: 445.5, y: 195.44371, z: 0}
     speed: 2
-    m_Value: {x: 0.5840014, y: -0.8895444, z: -0.016547784}
+    m_Value: {x: 445.5, y: 195.44371, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -450,13 +450,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.20967302, y: 0.67967016, z: -0.21271388, w: -0.66995406}
+    m_Target: {x: -0.1870693, y: 0.7420071, z: -0.2310018, w: -0.60089046}
     speed: 2
-    m_Value: {x: -0.20967303, y: 0.6796702, z: -0.21271388, w: -0.6699541}
+    m_Value: {x: -0.18706925, y: 0.7420069, z: -0.23100173, w: -0.60089034}
   m_Size:
-    m_Target: 6.5011244
+    m_Target: 96.592636
     speed: 2
-    m_Value: 6.5011244
+    m_Value: 96.592636
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -538,7 +538,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 62fbffff
+      m_ExpandedIDs: 20c6ffff40c6ffff40cdffffb8ceffffd6d2ffff4ed4ffff60d4fffffcd5ffff4eddffff32e4ffff78e4ffff3ee5ffff10ebffff56ebfffff6ebffff68fbffffca360000d4360000f4360000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -601,20 +601,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Level Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Level Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\sanji\OneDrive\Desktop\spacequestredo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e03c0000
-    m_LastClickedID: 15584
-    m_ExpandedIDs: 00000000e03c0000e23c0000e43c0000e63c000000ca9a3b
+    m_SelectedIDs: 02400000
+    m_LastClickedID: 16386
+    m_ExpandedIDs: 00000000ce3f0000d03f0000d23f0000d43f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -642,7 +642,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e03c0000e23c0000e43c0000e63c000000ca9a3b
+    m_ExpandedIDs: 00000000ce3f0000d03f0000d23f0000d43f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -669,7 +669,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -735,4 +735,4 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 243
