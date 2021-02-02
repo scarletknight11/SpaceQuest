@@ -54,9 +54,9 @@ public class RBPauseManager : MonoBehaviour {
         }
 
         //debug restart
-        if (Input.GetKeyDown(KeyCode.R)) {
-            ReloadGame();
-        }
+        //if (Input.GetKeyDown(KeyCode.R)) {
+        //    ReloadGame();
+        //}
     }
 
 
