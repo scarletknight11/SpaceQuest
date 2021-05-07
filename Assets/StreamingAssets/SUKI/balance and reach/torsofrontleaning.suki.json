@@ -1,6 +1,6 @@
 {
     "_id": "5905235c04738f5c88da7749",
-    "SchemaName": "joystick",
+    "SchemaName": "placement",
     "SchemaResolution": "Range",
     "SchemaDevice": "Kinect",
     "SchemaMetric": "MultiNodeVectorBetween",
@@ -16,7 +16,7 @@
     "FloatBoundsInfo": {
         "lowBounds": -0.15,
         "highBounds": 0.2
-        "reverse":false
+        "reverse":true
         "useExtents": true
     },
     "Vector2BoundsInfo": null,
