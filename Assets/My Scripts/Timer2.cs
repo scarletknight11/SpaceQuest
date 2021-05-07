@@ -8,8 +8,7 @@ using FullSerializer;
 using DG.Tweening;
 using enableGame;
 
-public class Timer2 : MonoBehaviour
-{
+public class Timer2 : MonoBehaviour {
     float timeLeft;
     public Text countdownText;
     int countDownStart = 5;

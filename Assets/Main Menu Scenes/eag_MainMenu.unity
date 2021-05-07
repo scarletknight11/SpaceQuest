@@ -1161,6 +1161,7 @@ MonoBehaviour:
   m_CaretBlinkRate: 1.7
   m_CaretWidth: 1
   m_ReadOnly: 0
+  m_ShouldActivateOnSelect: 1
 --- !u!224 &457377950
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2911,7 +2912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56cb2d51b6ca705469f221f7a92b6bd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameSceneName: Level1
+  GameSceneName: Timerlevel1
 --- !u!4 &1112162695
 Transform:
   m_ObjectHideFlags: 0
