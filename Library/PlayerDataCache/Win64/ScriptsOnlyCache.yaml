@@ -621,9 +621,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15184}
     - Class: 114
-      Script: {instanceID: 15658}
+      Script: {instanceID: 15230}
     - Class: 114
-      Script: {instanceID: 16274}
+      Script: {instanceID: 15658}
     - Class: 114
       Script: {instanceID: 16776}
     - Class: 114
@@ -635,6 +635,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -668,11 +670,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15184}
     - Class: 114
+      Script: {instanceID: 15230}
+    - Class: 114
       Script: {instanceID: 15602}
     - Class: 114
       Script: {instanceID: 15658}
-    - Class: 114
-      Script: {instanceID: 16274}
     - Class: 114
       Script: {instanceID: 16776}
     - Class: 114
@@ -684,6 +686,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -717,11 +721,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15184}
     - Class: 114
+      Script: {instanceID: 15230}
+    - Class: 114
       Script: {instanceID: 15658}
     - Class: 114
       Script: {instanceID: 15918}
-    - Class: 114
-      Script: {instanceID: 16274}
     - Class: 114
       Script: {instanceID: 16776}
     - Class: 114
@@ -733,6 +737,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -959,9 +965,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17286}
     - Class: 114
-      Script: {instanceID: 51270}
+      Script: {instanceID: 42720}
     - Class: 114
-      Script: {instanceID: 51272}
+      Script: {instanceID: 42722}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -2795,4 +2801,4 @@ ScriptsOnlyBuild:
   - Assets/Main Menu Scenes/eag_MainMenu3.unity
   - Assets/Level Scenes/Timerlevel3.unity
   - Assets/Level Scenes/Level3.unity
-  playerPath: C:/Users/sanji/OneDrive/Desktop/SpaceQuest/spacequestredo_Data/spacequestredo.exe
+  playerPath: C:/Users/sanji/OneDrive/Desktop/SpaceQuest/Builds/SpaceQuest2.0/spacequestredo.exe
