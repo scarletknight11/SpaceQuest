@@ -7,6 +7,7 @@ Some of the technologies enable games uses involves VR/AR headsets, Microsoft Xb
 Some of those neurological conditions involve Cerebral Palsy, Multiple Sclerosis, Parkinson's, Seizures, Strokes & more. 
 To learn more about enable games go on the site: https://www.enablegames.com/
 
+
 Steps on how to run the game using Xbox Kinect.
 
 Step 1: Download the enable games platform here, https://portal.enablegames.com/#/login
@@ -14,3 +15,7 @@ Step 1: Download the enable games platform here, https://portal.enablegames.com/
 Step 2: For new users create a new account under home account where it says new player
 
 Step 3: Once account is created you will have a screen like this: 
+
+
+
+Roller madness repo can be found here: https://github.com/scarletknight11/RollerMadness
