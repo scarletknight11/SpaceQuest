@@ -11,5 +11,4 @@ Steps on how to run the game using Xbox Kinect.
 
 Step 1: Download the enable games platform here, https://portal.enablegames.com/#/login
 Step 2: For new users create a new account under home account where it says new player
-
 Step 3: once account is created you will have a screen like this: 
