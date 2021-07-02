@@ -1,4 +1,4 @@
-#SpaceQuest: Game was built off of roller madness game I made through a game dev course I took on Coursera
+SpaceQuest: Game was built off of roller madness game I made through a game dev course I took on Coursera
 Major differences include deisgn mechanisms and gameplay scenes.
 In addition, some of the modifications involve using libraries devoloped by Drexel university, replay labs spin-off startup, enAble games, 
 an Active Video Game (AVG) platform that includes a suite of fun and challenging games for players with disabilities. Flexible gaming parameters enable each game to be tweaked and adjusted to best fit the therapy goals of each individual player.
@@ -10,5 +10,7 @@ To learn more about enable games go on the site: https://www.enablegames.com/
 Steps on how to run the game using Xbox Kinect.
 
 Step 1: Download the enable games platform here, https://portal.enablegames.com/#/login
+
 Step 2: For new users create a new account under home account where it says new player
+
 Step 3: once account is created you will have a screen like this: 
