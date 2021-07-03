@@ -1,4 +1,4 @@
-#SpaceQuest: Game was built off of roller madness game I made through a game dev course I took on Coursera
+SpaceQuest: Game was built off of roller madness game I made through a game dev course I took on Coursera
 Major differences include deisgn mechanisms and gameplay scenes.
 In addition, some of the modifications involve using libraries devoloped by Drexel university, replay labs spin-off startup, enAble games, 
 an Active Video Game (AVG) platform that includes a suite of fun and challenging games for players with disabilities. Flexible gaming parameters enable each game to be tweaked and adjusted to best fit the therapy goals of each individual player.
