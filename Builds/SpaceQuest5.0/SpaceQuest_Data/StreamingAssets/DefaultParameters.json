@@ -1,0 +1,112 @@
+{
+    "name": "Default Parameters",
+    "categories": {
+        "Gameplay": [
+            {
+                "strings": [
+                    "Arms",
+                    "Balance and Reach"
+                ],
+                "value_": "Arms",
+                "name": "Suki type",
+                "alias": "Motion Tracking Category",
+                "description": "Category of motion tracking mode.",
+                "$type": "StringListParameter",
+                "$id": "3"
+            },
+            {
+                "strings": [
+                    "default.suki",
+                    "Arms\\L_Arm2dof.suki",
+                    "Arms\\R_Arm2DOF.suki",
+                    "Balance and Reach\\WeightShifting.suki",
+                ],
+                "value_": "default.suki",
+                "name": "Suki file",
+                "alias": "Motion Tracking Mode",
+                "description": "Which body motion to track to control the game.",
+                "$type": "StringListParameter",
+                "$id": "5"
+            },
+            {
+                "value_": true,
+                "gameObjectsToactivateName": null,
+                "name": "Enable Suki Extents",
+                "alias": "Custom Range of Motion",
+                "description": "Use player's Range Of Motion instead of default for Body Tracking Mode.",
+                "$type": "BoolParameter",
+                "$id": "9"
+            },
+            {
+                "min_": 0.0,
+                "max_": 1.0,
+                "value_": 0.1,
+                "tick_": 0.05,
+                "name": "Suki Default Percent",
+                "alias": "Default Range %",
+                "description": "1=start at default range, 0=start at custom range",
+                "$type": "RangeParameter",
+                "$id": "4"
+            },
+            {
+                "min_": 1.0,
+                "max_": 300.0,
+                "value_": 125.0,
+                "tick_": 1.0,
+                "name": "Game Length",
+                "alias": "Game Length",
+                "description": "The number of seconds to play in a game session",
+                "$type": "RangeParameter",
+                "$id": "6"
+            },
+
+            {
+                "min_": 1.0,
+                "max_": 10.0,
+                "value_": 1.0,
+                "tick_": 0.5,
+                "name": "Player Starting Speed",
+                "alias": "Player Starting Speed",
+                "description": "Starting speed for the player",
+                "$type": "RangeParameter",
+                "$id": "7"
+            }
+
+            {
+                "min_": 0.1,
+                "max_": 2.5,
+                "value_": 0.4,
+                "tick_": 0.1,
+                "name": "Enemy Speed",
+                "alias": "Enemy Speed",
+                "description": "Speed of Enemy",
+                "$type": "RangeParameter",
+                "$id": "11"
+            }
+
+        ]
+    },
+    "parameters": {
+        "Enemy Speed": {
+            "$ref": "11"
+        },
+        "Player Starting Speed": {
+            "$ref": "7"
+        },
+        "Suki type": {
+            "$ref": "3"
+        },
+        "Suki Default Percent": {
+            "$ref": "4"
+        },
+        "Game Length": {
+            "$ref": "6"
+        },
+        "Suki file": {
+            "$ref": "5"
+        },
+        "Enable Suki Extents": {
+            "$ref": "9"
+        }
+    }
+}
