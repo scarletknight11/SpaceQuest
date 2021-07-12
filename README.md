@@ -16,6 +16,21 @@ Step 2: For new users create a new account under home account where it says new 
 
 Step 3: Once account is created you will have a screen like this: ![image](https://user-images.githubusercontent.com/3290334/125222757-a40aa700-e298-11eb-9d5f-6aeeafe3a8c6.png)
 
+Step 4: Click download and you will see this screen: ![image](https://user-images.githubusercontent.com/3290334/125222893-d7e5cc80-e298-11eb-8a0c-a45ba27368cb.png)
+
+Step 5: Once you have downloaded and installed the platform, click on the enAblegames.exe icon in the directory you installed it in (I do mine in Desktop)
+
+Step 6: Before signing into the platform make sure you download SDK for kinect motion tracking depending on which Kinect you are using.
+
+V1 SDK: https://www.microsoft.com/en-us/download/confirmation.aspx?id=40277
+
+V2 SDK: https://www.microsoft.com/en-us/download/confirmation.aspx?id=44559
+
+Step 7: Connect your Kinect USB device to your computer. Your Kinect should go on as you feel see an infrared light go on. 
+
+Step 8: Sign in with your account you created on the website in the enAble games platform. Make sure your kinect is connected as you sign in
+![image](https://user-images.githubusercontent.com/3290334/125223069-21ceb280-e299-11eb-9b40-b3af922896ef.png)
+
 
 
 
