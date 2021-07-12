@@ -14,7 +14,8 @@ Step 1: Download the enable games platform here, https://portal.enablegames.com/
 
 Step 2: For new users create a new account under home account where it says new player
 
-Step 3: Once account is created you will have a screen like this: 
+Step 3: Once account is created you will have a screen like this: ![image](https://user-images.githubusercontent.com/3290334/125222757-a40aa700-e298-11eb-9d5f-6aeeafe3a8c6.png)
+
 
 
 
